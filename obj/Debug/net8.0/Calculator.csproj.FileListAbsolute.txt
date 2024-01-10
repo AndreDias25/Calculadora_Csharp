@@ -1,0 +1,15 @@
+C:\BackendEstudos\calculadora_c#\Calculator\bin\Debug\net8.0\Calculator.exe
+C:\BackendEstudos\calculadora_c#\Calculator\bin\Debug\net8.0\Calculator.deps.json
+C:\BackendEstudos\calculadora_c#\Calculator\bin\Debug\net8.0\Calculator.runtimeconfig.json
+C:\BackendEstudos\calculadora_c#\Calculator\bin\Debug\net8.0\Calculator.dll
+C:\BackendEstudos\calculadora_c#\Calculator\bin\Debug\net8.0\Calculator.pdb
+C:\BackendEstudos\calculadora_c#\Calculator\obj\Debug\net8.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\BackendEstudos\calculadora_c#\Calculator\obj\Debug\net8.0\Calculator.AssemblyInfoInputs.cache
+C:\BackendEstudos\calculadora_c#\Calculator\obj\Debug\net8.0\Calculator.AssemblyInfo.cs
+C:\BackendEstudos\calculadora_c#\Calculator\obj\Debug\net8.0\Calculator.csproj.CoreCompileInputs.cache
+C:\BackendEstudos\calculadora_c#\Calculator\obj\Debug\net8.0\Calculator.sourcelink.json
+C:\BackendEstudos\calculadora_c#\Calculator\obj\Debug\net8.0\Calculator.dll
+C:\BackendEstudos\calculadora_c#\Calculator\obj\Debug\net8.0\refint\Calculator.dll
+C:\BackendEstudos\calculadora_c#\Calculator\obj\Debug\net8.0\Calculator.pdb
+C:\BackendEstudos\calculadora_c#\Calculator\obj\Debug\net8.0\Calculator.genruntimeconfig.cache
+C:\BackendEstudos\calculadora_c#\Calculator\obj\Debug\net8.0\ref\Calculator.dll
