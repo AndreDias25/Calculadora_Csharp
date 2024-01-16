@@ -18,7 +18,9 @@ namespace  Calculator
             Console.WriteLine("2 - Substração");
             Console.WriteLine("3 - Divisão");
             Console.WriteLine("4 - Multiplicação");
-            Console.WriteLine("5 - Sair");
+            Console.WriteLine("5 - Potenciação");
+            Console.WriteLine("6 - Raíz quadrada");
+            Console.WriteLine("7 - Sair");
 
             Console.WriteLine("=================");
             Console.WriteLine("Selecione uma opção: ");
@@ -32,7 +34,9 @@ namespace  Calculator
                 case 2: Subtracao(); break;
                 case 3: Divisao(); break;
                 case 4: Multiplicacao(); break;
-                case 5: System.Environment.Exit(0); break;
+                case 5: Potenciacao();break;
+                case 6: raizQuadrada();break;
+                case 7: System.Environment.Exit(0); break;
                 default: Menu(); break;
 
             }
@@ -104,6 +108,36 @@ namespace  Calculator
 
             float resultado = valor1 * valor2;
             Console.WriteLine($"O resultado da multiplicação é {resultado}");
+            Console.ReadKey();
+            Menu();
+        }
+
+        static void Potenciacao(){
+            Console.Clear();
+
+            Console.WriteLine("Valor da base:");
+            float valor1 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Valor do expoente:");
+            float valor2 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("");
+            double resultado = Math.Pow(valor1, valor2);
+            Console.WriteLine($"O resultado da potência de {valor1} por {valor2} é {resultado}");
+            Console.ReadKey();
+            Menu();
+        }
+
+        static void raizQuadrada(){
+            Console.Clear();
+
+            Console.WriteLine("Valor do número:");
+            float valor1 = float.Parse(Console.ReadLine());
+
+
+            Console.WriteLine("");
+            double resultado = Math.Sqrt(valor1);
+            Console.WriteLine($"A raíz de {valor1} é {resultado}");
             Console.ReadKey();
             Menu();
         }
